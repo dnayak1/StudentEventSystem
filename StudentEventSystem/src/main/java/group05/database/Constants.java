@@ -9,6 +9,7 @@ public class Constants {
 	public static class Specialization{
 		public static final String SPECIALIZATION_TABLE="specialization";
 		public static final String SPECIALIZATION_NAME="SName";	
+		public static final String SPECIALIZATION_CODE="SCode";	
 	}
 	public static class Department{
 		public static final String DEPARTMENT_TABLE="department";
@@ -24,9 +25,15 @@ public class Constants {
 		public static final String PERSON_TABLE="persons";
 		public static final String PERSON_ID="PersonId";
 		public static final String PERSON_NAME="PersonName";
-		public static final String MAIL_ID="MailId";
-		
+		public static final String MAIL_ID="MailId";	
 	}
-	
+	public static class Student{
+		public static final String STUDENT_TABLE="student";
+		public static final String ON_CAMPUS="OnCampus";
+		public static final String GRADUATION_YEAR="GraduationYear";
+		public static final String FACULTY_ID="FacultyId";
+		public static final String MAJOR_CODE="MajorCode";
+		public static final String MINOR_CODE="MinorCode";
+	}
 
 }
